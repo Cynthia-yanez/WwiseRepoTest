@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{78A52902-9924-484D-97D2-DAD21E78D14A}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Mejia" ID="{78A52902-9924-484D-97D2-DAD21E78D14A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="mejiaLoop" ID="{A7E1B707-CCD4-41BE-ABB8-FCCF7720CF72}" ShortID="183867652">
+					<PropertyList>
+						<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
+						<Property Name="Soundly:FileID" Type="string" Value="SND54291"/>
+						<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1693493785HUrH8PItxgz9Xqa6AZ-&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND54291/sfy_oasAxfCUGkxnKxrfgsXrvsPCEvFsxo"/>
+						<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
+						<Property Name="Soundly:HandleStopTime" Type="string" Value="12.965125"/>
+						<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
+						<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
+						<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
+						<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
+						<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
+						<Property Name="Soundly:RenderedFilePath" Type="string" Value="/Users/admin/Desktop/STAFF/rge Mondragon/Ambience, Birdsong, Sunrise, Rural, Morning Chorus SND54291.wav"/>
+						<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="96000"/>
+						<Property Name="Soundly:SelectionStartTime" Type="string" Value="0.5718068481817938"/>
+						<Property Name="Soundly:SelectionStopTime" Type="string" Value="0.8015739835242498"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54200133-C845-4438-A95E-B62F96F4B758}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4447E16D-FA60-4A25-AE0D-185938B351BF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Ambience, Birdsong, Sunrise, Rural, Morning Chorus SND54291" ID="{50752F07-D727-4E06-8765-99F50E235401}">
+							<PropertyList>
+								<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND54291"/>
+								<Property Name="TrimBegin" Type="Real64" Value="7.41354726253298"/>
+								<Property Name="TrimEnd" Type="Real64" Value="10.3925068931398"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Soundly Audio\Ambience, Birdsong, Sunrise, Rural, Morning Chorus SND54291.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="624946228"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Ambience, Birdsong, Sunrise, Rural, Morning Chorus SND54291" ID="{50752F07-D727-4E06-8765-99F50E235401}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
