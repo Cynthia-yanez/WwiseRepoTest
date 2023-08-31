@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4BA337F1-25A3-454B-A052-04EDC709EDC9}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Jonatan" ID="{4BA337F1-25A3-454B-A052-04EDC709EDC9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="JonatanLoop" ID="{7C8A4F02-97E3-4213-AE02-C852CBFB9CE2}" ShortID="855410161">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
+						<Property Name="Soundly:FileID" Type="string" Value="SND11597"/>
+						<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=16934946373kFuDEfZZX2NEQeQFYg&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND11597/sfy_jXjPEtceYmDXCDitHbMXXsOFztqGhC"/>
+						<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
+						<Property Name="Soundly:HandleStopTime" Type="string" Value="37.8471515625"/>
+						<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
+						<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
+						<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
+						<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
+						<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
+						<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\marig\Soundly Audio\Designed, Drone, Dark, Ominous Swells  SND11597.wav"/>
+						<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="96000"/>
+						<Property Name="Soundly:SelectionStartTime" Type="string" Value="0.03333333333333333"/>
+						<Property Name="Soundly:SelectionStopTime" Type="string" Value="0.075"/>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{83487663-E6BB-4A6D-A822-556C1E544158}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="2"/>
+											<Property Name="Min" Type="Real64" Value="-10"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54200133-C845-4438-A95E-B62F96F4B758}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4447E16D-FA60-4A25-AE0D-185938B351BF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Designed, Drone, Dark, Ominous Swells  SND11597" ID="{16C56B1C-72D9-492F-908E-DDA407477113}">
+							<PropertyList>
+								<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND11597"/>
+								<Property Name="TrimBegin" Type="Real64" Value="3.48762291666667"/>
+								<Property Name="TrimEnd" Type="Real64" Value="7.8471515625"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Soundly Audio\Designed, Drone, Dark, Ominous Swells  SND11597.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1070931931"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Designed, Drone, Dark, Ominous Swells  SND11597" ID="{16C56B1C-72D9-492F-908E-DDA407477113}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
