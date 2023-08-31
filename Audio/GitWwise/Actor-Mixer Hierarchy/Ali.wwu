@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7FA401F6-D035-4D88-9E53-C895D2332682}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Ali" ID="{7FA401F6-D035-4D88-9E53-C895D2332682}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Aliloop" ID="{65D2D8D0-A143-4477-9463-29040221346E}" ShortID="376882984">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{2EC5DE9B-F29A-4981-84D3-2AC59DCDF667}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="985"/>
+											<Property Name="Min" Type="Real64" Value="-859"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
+						<Property Name="Soundly:FileID" Type="string" Value="SND11284"/>
+						<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1693493785HUrH8PItxgz9Xqa6AZ-&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND11284/sfy_GkqgsFuhHoDoUsWOUqJBkhHIzzIILC"/>
+						<Property Name="Soundly:HandleStartTime" Type="string" Value="23.02652763852243"/>
+						<Property Name="Soundly:HandleStopTime" Type="string" Value="88.17928209102902"/>
+						<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
+						<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
+						<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
+						<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
+						<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
+						<Property Name="Soundly:RenderedFilePath" Type="string" Value="/Users/admin/Desktop/STAFF/rge Mondragon/Ambience, Birdsong, Crow, Birds Chirp SND11284.wav"/>
+						<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="96000"/>
+						<Property Name="Soundly:SelectionStartTime" Type="string" Value="0.31337120634085347"/>
+						<Property Name="Soundly:SelectionStopTime" Type="string" Value="0.34382247197468196"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54200133-C845-4438-A95E-B62F96F4B758}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4447E16D-FA60-4A25-AE0D-185938B351BF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Ambience, Birdsong, Crow, Birds Chirp SND11284" ID="{264AA656-0B1E-451C-B16B-DB0B58223A90}">
+							<PropertyList>
+								<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND11284"/>
+								<Property Name="TrimBegin" Type="Real64" Value="53.0265276385224"/>
+								<Property Name="TrimEnd" Type="Real64" Value="58.179282091029"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Soundly Audio\Ambience, Birdsong, Crow, Birds Chirp SND11284.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="886946304"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Ambience, Birdsong, Crow, Birds Chirp SND11284" ID="{264AA656-0B1E-451C-B16B-DB0B58223A90}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
