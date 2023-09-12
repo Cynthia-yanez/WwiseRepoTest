@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E952A8CA-35CF-4B4F-A229-2CCDDB67AD38}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="MarcoRamos" ID="{E952A8CA-35CF-4B4F-A229-2CCDDB67AD38}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="SFXMarco" ID="{3C6627D2-9939-4C19-B3FF-839CB0B40D86}" ShortID="904358868">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
+						<Property Name="Soundly:FileID" Type="string" Value="SND70532"/>
+						<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1693492345FVnAx0vBgtAReCfYeqw&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND70532/sfy_YRMPUpqVMwknJZFJRtADgijSZBCvue"/>
+						<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
+						<Property Name="Soundly:HandleStopTime" Type="string" Value="8.469333333333333"/>
+						<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
+						<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
+						<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
+						<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
+						<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
+						<Property Name="Soundly:RenderedFilePath" Type="string" Value="/Users/mariadelcarmenorozcogodinez/Documents/Soundly Audio/Creatures, Dragon, Dragon, Vocalizations, Roars Dragon SND70532 1.wav"/>
+						<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="96000"/>
+						<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
+						<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54200133-C845-4438-A95E-B62F96F4B758}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4447E16D-FA60-4A25-AE0D-185938B351BF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Creatures, Dragon, Dragon, Vocalizations, Roars Dragon SND70532 1" ID="{78CBD1BF-CDDC-4515-BAC3-A5E587C07AC2}">
+							<PropertyList>
+								<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND70532"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Soundly Audio\Creatures, Dragon, Dragon, Vocalizations, Roars Dragon SND70532 1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="249354445"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Creatures, Dragon, Dragon, Vocalizations, Roars Dragon SND70532 1" ID="{78CBD1BF-CDDC-4515-BAC3-A5E587C07AC2}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
