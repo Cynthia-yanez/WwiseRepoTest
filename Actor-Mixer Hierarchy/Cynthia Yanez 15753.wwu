@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{65A1E0F1-302F-40D6-A59E-48BCEA6FF0A5}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Cynthia Yanez 15753" ID="{65A1E0F1-302F-40D6-A59E-48BCEA6FF0A5}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="SFX Gun" ID="{0EC80C70-C03F-4E87-8303-939D6E7ED459}" ShortID="1043066340">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Lowpass" Type="int16">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{6E8900D2-83EE-4AE2-B430-9BDA36D453DC}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="50"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{BBFD4615-1253-4BBA-B5F5-6D8BAA4609E4}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54200133-C845-4438-A95E-B62F96F4B758}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4447E16D-FA60-4A25-AE0D-185938B351BF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="12 - Gun Bullet-11" ID="{200668A6-A7BA-4288-A09D-7D27D0034268}">
+							<Language>SFX</Language>
+							<AudioFile>12 - Gun Bullet-11.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="32928674"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="12 - Gun Bullet-11" ID="{200668A6-A7BA-4288-A09D-7D27D0034268}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
